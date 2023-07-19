@@ -1,0 +1,15 @@
+@media screen and (max-width: 400px) {
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav-items-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-items-container a {
+    margin: 20px;
+  }
+  .nav-items-container .follow-btn {
+    width: 100%;
+  }
+}

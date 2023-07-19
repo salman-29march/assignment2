@@ -1,0 +1,321 @@
+* {
+  /* box-sizing: border-box; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.nav-container {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.head {
+  background-color: rgb(247, 242, 251);
+}
+.logo-container {
+  display: flex;
+  width: 50%;
+}
+
+.logo-container img {
+  width: 70px;
+  height: 50px;
+  padding-top: 35px;
+  padding-left: 15px;
+  margin-right: 15px;
+}
+
+.logo-container p {
+  font-size: 39px;
+  font-weight: bolder;
+}
+
+.logo-container span {
+  color: rgb(244, 129, 167);
+}
+
+.nav-items-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.follow-btn {
+  background-color: rgb(234, 237, 211);
+  border-radius: 3px;
+  /* padding: 5px; */
+  text-align: center;
+  padding-bottom: 10px;
+}
+.nav-items-container a {
+  text-decoration: none;
+}
+.nav-items-container a:hover {
+  background-color: rgb(76, 191, 225);
+  padding: 10px;
+  transition: 0.3s;
+  /* background-color: rgb(255, 255, 255); */
+  border-radius: 20px;
+  opacity: 0.5;
+}
+.follow-btn img {
+  width: 35px;
+  padding-top: 15px;
+}
+.follow-btn:hover {
+  color: rgb(219, 24, 37);
+  background-color: aqua;
+}
+
+/* nav design ends here */
+
+.banner-container {
+  margin: 50px auto 0;
+  background-color: rgb(248, 247, 247);
+  max-width: 1400px;
+  min-height: 50px;
+  display: flex;
+  height: auto;
+  margin-bottom: 10px;
+}
+.banner-text span {
+  color: rgb(209, 42, 209);
+}
+.banner-text {
+  width: 50%;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 90px;
+}
+.banner-img {
+  width: 50%;
+}
+.banner-img img {
+  width: 100%;
+}
+.btn1 button {
+  color: black;
+  background-color: rgb(229, 78, 126);
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0px;
+  font-size: xx-large;
+}
+.btn1 button:hover {
+  color: aliceblue;
+  background-color: aqua;
+  padding: 10px;
+  transition: 0.3s;
+  /* background-color: rgb(255, 255, 255); */
+  border-radius: 20px;
+  opacity: 0.5;
+}
+
+/* second banner start here */
+
+.a {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.bc {
+  text-align: center;
+  margin-top: 0px;
+}
+.online-games span {
+  color: rgb(201, 90, 201);
+}
+
+.second-banner {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.second-banner img:hover {
+  padding: 10px;
+  transition: 0.3s;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  opacity: 0.5;
+}
+
+.coment p {
+  display: inline;
+  margin: 15px;
+  padding-left: 20px;
+}
+
+/* third part design start here */
+.banner-container1 {
+  margin: 50px auto 0;
+  background-color: rgb(248, 247, 247);
+  max-width: 1400px;
+  min-height: 50px;
+  display: flex;
+  height: auto;
+  margin-bottom: 20px;
+  position: statics;
+}
+.banner-container1 img:hover {
+  padding: 10px;
+  transition: 0.3s;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+div1 {
+  z-index: 1;
+  position: absolute;
+}
+
+.banner-text1 span {
+  color: rgb(209, 42, 209);
+}
+.banner-text1 {
+  width: 50%;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 90px;
+}
+.banner-img1 {
+  width: 50%;
+  /* position: absolute; */
+  left: 150px;
+  top: 150px;
+}
+.z img {
+  width: 30%;
+}
+.banner-img1 img {
+  width: 100%;
+}
+.btn5 button {
+  color: black;
+  background-color: rgb(229, 78, 126);
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0px;
+  font-size: xx-large;
+}
+.btn5 button:hover {
+  color: aliceblue;
+  background-color: aqua;
+  padding: 10px;
+  transition: 0.3s;
+  /* background-color: rgb(255, 255, 255); */
+  border-radius: 20px;
+  opacity: 0.5;
+}
+
+/* small logo and icon 4th part */
+
+/* click button style here */
+.click {
+  text-align: center;
+  font-size: 36px;
+  color: blueviolet;
+  font-weight: bolder;
+}
+.bg {
+  background-color: rgb(246, 242, 242);
+}
+.small-icon {
+  justify-items: center;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.small-icon img {
+  min-width: 80px;
+  align-items: center;
+}
+.small-icon img:hover {
+  padding: 10px;
+  transition: 0.3s;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  opacity: 0.5;
+}
+
+.small-icon span {
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+/* footer style start here */
+footer {
+  background-color: rgb(62, 52, 64);
+  color: white;
+  margin-top: 20px;
+  padding: 50px;
+}
+.f-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  font-weight: 900px;
+}
+.f-container span {
+  color: rgb(236, 147, 160);
+}
+.f-a a {
+  text-decoration: none;
+  padding: 20px;
+  justify-content: space-between;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+}
+.social-icon {
+  display: flex;
+  justify-content: center;
+}
+.social-icon a {
+  text-decoration: none;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.social-icon a {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+.social-icon a:hover {
+  background-color: rgb(35, 30, 35);
+  transition: 0.7s;
+  background-color: rgb(59, 15, 21);
+}
+
+.f {
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+}
+.f-n {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: 0.5s;
+  font-size: 1.3em;
+  padding-left: 20px;
+}
+
+.f-n:hover {
+  background-color: rgb(35, 30, 35);
+  transition: 0.7s;
+  padding: 10px;
+  background-color: rgb(232, 175, 183);
+  border-radius: 10px;
+}
+.footerBottom {
+  text-align: center;
+  font-size: larger;
+}
